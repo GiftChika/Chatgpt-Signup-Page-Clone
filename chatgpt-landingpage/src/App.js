@@ -29,7 +29,7 @@ function App() {
             <div className="w-[20px] h-[20px] rounded-full bg-white"></div>
         </div>
         <div className='pt-[100px] md:pt-[180px] lg:pt-[280px] 2xl:pt-[280px] xl:pt-[280px]'>
-            <div className='font-bold text-[35px] text-white ' >Artificial Intelligence, endless possibilities.</div>
+            <div className='tracking-in-expand font-bold text-[35px] text-white ' >Artificial Intelligence, endless possibilities.</div>
             <div className='animate-2 font-medium text-white text-[25px]'>{typeEffect}</div>
         </div>
     </div>
@@ -37,8 +37,8 @@ function App() {
         <div className='flex flex-col items-center'>
             <div className='text-[32px] font-bold'>Get Started</div>
             <div className='flex flex-row gap-[10px] md:gap-[10px] lg:gap-[8px] xl:gap-[10px] 2xl:gap-[20px] pt-4'>
-                <div className='bg-blue-950 text-white text-[18px] px-10 md:px-12 lg:px-6 xl:px-8 2xl:px-14 py-3 rounded-xl'>Login</div>
-                <div className='bg-blue-950 text-white text-[18px] px-10 md:px-10 lg:px-4 xl:px-8 2xl:px-12 py-3 rounded-xl'>Sign up</div>
+                <div className='bg-blue-950 hover:opacity-75 text-white text-[18px] px-10 md:px-12 lg:px-6 xl:px-8 2xl:px-14 py-3 rounded-xl'>Login</div>
+                <div className='bg-blue-950 hover:opacity-75 text-white text-[18px] px-10 md:px-10 lg:px-4 xl:px-8 2xl:px-12 py-3 rounded-xl'>Sign up</div>
             </div>
         </div>
         <div className=' flex flex-col items-center pt-[28px] md:pt-[28px] lg:pt-[200px] 2xl:pt-[200px] xl:pt-[200px]'>
