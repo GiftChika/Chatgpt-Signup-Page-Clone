@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
 import img1 from './asset/openai.253x256.png';
-import background from './asset/download.jpg';
+import background from './asset/machine.jpg';
 
 function App() {
   const [typeEffect] = useTypewriter({
@@ -23,7 +23,7 @@ function App() {
 })
   return (
     <div className="container flex flex-col md:flex-col lg:flex-row 2xl:flex-row xl:flex-row">
-      <div xl:style={{backgroundImage: `url(${background})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center',w:'100%'}} className="left-side md:w-full   lg:w-[60%]  2xl:w-[70%]  xl:w-[60%]  lg:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] pl-8 pt-[30px] pb-[200px] text-start">
+      <div style={{backgroundImage: `url(${background})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center',w:'100%'}} className="left-side md:w-full   lg:w-[60%]  2xl:w-[70%]  xl:w-[60%]  lg:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] pl-8 pt-[30px] pb-[200px] text-start">
         <div className='flex flex-row items-center'>
             <div className="font-bold text-white text-[25px]">ChatGPT</div>
             <div className="w-[20px] h-[20px] rounded-full bg-white"></div>
@@ -37,8 +37,8 @@ function App() {
         <div className='flex flex-col items-center'>
             <div className='text-[32px] font-bold'>Get Started</div>
             <div className='flex flex-row gap-[10px] md:gap-[10px] lg:gap-[8px] xl:gap-[10px] 2xl:gap-[20px] pt-4'>
-                <div className='bg-sky-500 text-white text-[18px] px-10 md:px-12 lg:px-6 xl:px-8 2xl:px-14 py-3 rounded-xl'>Login</div>
-                <div className='bg-blue-800 text-white text-[18px] px-10 md:px-10 lg:px-4 xl:px-8 2xl:px-12 py-3 rounded-xl'>Sign up</div>
+                <div className='bg-blue-950 text-white text-[18px] px-10 md:px-12 lg:px-6 xl:px-8 2xl:px-14 py-3 rounded-xl'>Login</div>
+                <div className='bg-blue-950 text-white text-[18px] px-10 md:px-10 lg:px-4 xl:px-8 2xl:px-12 py-3 rounded-xl'>Sign up</div>
             </div>
         </div>
         <div className=' flex flex-col items-center pt-[28px] md:pt-[28px] lg:pt-[200px] 2xl:pt-[200px] xl:pt-[200px]'>
